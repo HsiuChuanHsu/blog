@@ -1,0 +1,4 @@
+[submodule "hchsublog/public"]
+	path = hchsublog/public
+	url = https://github.com/HsiuChuanHsu/HsiuChuanHsu.github.io.git
+	branch = main
