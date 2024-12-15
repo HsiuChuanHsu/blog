@@ -1,0 +1,19 @@
+.container {
+    max-width: 1400px;  /* 增加容器寬度，預設通常是 1200px */
+}
+
+.main {
+    width: 75%;  /* 增加主內容區域寬度 */
+}
+
+.sidebar {
+    width: 25%;  /* 調整側邊欄寬度 */
+}
+
+.post-thumbnail {
+    max-width: 200px;  /* 調整圖片最大寬度 */
+    float: right;      /* 圖片靠右對齊 */
+    margin: 20px 20px 20px 20px;  /* 添加邊距 */
+}
+
+

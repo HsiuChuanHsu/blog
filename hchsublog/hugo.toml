@@ -1,0 +1,51 @@
+baseURL = "https://HsiuChuanHsu.github.io/"
+languageCode = "en-us"
+title = "Data and Tools"
+theme = "mainroad"
+
+[Params]
+  description = "John Doe's Personal blog about everything"
+  copyright = "John Doe"
+  opengraph = true
+  schema = true
+  twitter_cards = true
+  readmore = false
+  authorbox = true
+  toc = true
+  pager = true
+  post_meta = ["author", "date", "categories", "translations"]
+  mainSections = ["posts"]
+  dateformat = "2006-01-02"
+  mathjax = true
+  mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js"
+  mathjaxConfig = "TeX-AMS-MML_HTMLorMML"
+  googleFontsLink = "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700"
+  customCSS = ["css/custom.css"]
+  customJS = ["js/custom.js"]
+
+
+[Params.sidebar]
+  home = "right"
+  list = "right"
+  single = "right"
+  widgets = ["search", "recent", "categories", "taglist"]
+
+[Params.logo]
+  title = "Data and Tools"
+
+[Params.style.vars]
+  highlightColor = "#27aab0"
+
+[Params.thumbnail]
+  visibility = ["list", "post"]
+
+[Params.widgets.search]
+  url = "https://google.com/search"
+  [Params.widgets.search.input]
+    name = "sitesearch"
+    pre = ""
+
+[Params.widgets]
+  recent_num = 5 # 最近文章顯示數量
+  categories_counter = true # 顯示分類文章計數
+  tags_counter = true # 顯示標籤文章計數
